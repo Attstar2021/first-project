@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Hind+Siliguri&display=swap');
 body{
-    color:aqua
+    font-family: courgette, sans-serif;
+    color: black;
+}
+/* hero image */
+#hero-image{
+    height: 600px;
+    width: 50%;
+    background: url(../images/main-image.jpg) no-repeat;
+
+    
+    
 }
