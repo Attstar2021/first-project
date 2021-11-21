@@ -3,30 +3,26 @@
 body{
     font-family:Courgette, sans-serif;
     color: black;
-    background-color: slategrey;
-}
-header{
-    background-color: navy;
-
+    background-color:silver;
 }
 #logo{
     float:left;
     font-size: 80%;
     margin-left: 30px;
+    color: black;
 }
 #icon{
     float: right;
     font-size: 120%;
     margin-right: 30px;
+    margin-top: 0px;
+   
 }
 /* hero image */
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url(../images/thumbnail\ \(1\).jpg) no-repeat center;
-    padding: 0cm;
-    margin: left 20px; ;
-    margin-right:20px ;
- 
+    background: url(../images/pexels-photo-4682110.jpeg) no-repeat center;
+     
 }
 
