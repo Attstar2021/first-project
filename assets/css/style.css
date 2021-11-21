@@ -1,14 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 body{
-    font-family: courgette, sans-serif;
+    font-family:Courgette, sans-serif;
     color: black;
+    background-color: slategrey;
+}
+header{
+    background-color: navy;
+
+}
+#logo{
+    float:left;
+    font-size: 80%;
+    margin-left: 30px;
+}
+#icon{
+    float: right;
+    font-size: 120%;
+    margin-right: 30px;
 }
 /* hero image */
 #hero-image{
     height: 600px;
-    width: 50%;
-    background: url(../images/main-image.jpg) no-repeat;
-
-    
-    
+    width: 100%;
+    background: url(../images/thumbnail\ \(1\).jpg) no-repeat center;
+    padding: 0cm;
+    margin: left 20px; ;
+    margin-right:20px ;
+ 
 }
+
