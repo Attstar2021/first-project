@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:ital,wght@1,300&display=swap');
 
 body{
     font-family:Courgette, sans-serif;
@@ -22,7 +22,7 @@ body{
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-photo-4682110\ \(1\).jpeg) no-repeat center;
+    background: url(../images/main-image1.jpg) no-repeat center center;
     /* zoom when page load */
     animation-name: zoom-img;
     animation-duration: 5s;
@@ -42,4 +42,34 @@ body{
     to{
         transform: scale(1.2);
     }
+}
+/* Add style to services content */
+#list-one{
+    float: left;
+    padding-top: 10px;
+}
+#list-two{
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#list-three{
+    float: right;
+    margin-right: 0;
+    padding-right: 0;
+    padding-top: 10px;
+}
+p, li{
+    font-family: Nunito,sans-serif;
+}
+/* Add style to gallery */
+#gallery{
+    width: 400;
+    
+
+    
+
 }
