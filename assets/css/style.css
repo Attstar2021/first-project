@@ -22,7 +22,24 @@ body{
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-photo-4682110.jpeg) no-repeat center;
+    background: url(../images/pexels-photo-4682110\ \(1\).jpeg) no-repeat center;
+    /* zoom when page load */
+    animation-name: zoom-img;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
      
 }
-
+#zoom-image{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+/*  create zoom effect for main image */
+@keyframes zoom-img{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
