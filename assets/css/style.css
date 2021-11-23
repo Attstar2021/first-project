@@ -47,6 +47,7 @@ body{
 #list-one{
     float: left;
     padding-top: 10px;
+    padding: bottom 10px;
 }
 #list-two{
     float: right;
@@ -55,21 +56,41 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
+    padding: bottom 10px;
 }
 #list-three{
     float: right;
     margin-right: 0;
     padding-right: 0;
     padding-top: 10px;
+    padding: bottom 10px;
 }
 p, li{
     font-family: Nunito,sans-serif;
 }
 /* Add style to gallery */
-#gallery{
-    width: 400;
+.gallery{
+    box-sizing: border-box;
+    margin: 5px;   
+}
+.row{
+    display: flex;
+}
+.column{
     
-
-    
+    flex: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#contact{
+    font-family: Nunito,sans-serif;
+    background-color: slategrey;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
 
 }
