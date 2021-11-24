@@ -50,29 +50,34 @@ body{
     }
 }
 /* Add style to services content */
+h2{
+    text-align: center;
+}
+#services{
+    height: 350px;
+}
 #list-one{
-    float: left;
-    padding-top: 10px;
-    padding: bottom 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+    width: 33%;   
 }
 #list-two{
-    float: right;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding: bottom 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 33%;
 }
 #list-three{
-    float: right;
-    margin-right: 0;
-    padding-right: 0;
-    padding-top: 10px;
-    padding: bottom 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    width: 33%; 
+    
 }
 p, li{
     font-family: Nunito,sans-serif;
+    text-align: justify;
 }
     #extra{
         width: 100%;
@@ -98,14 +103,7 @@ p, li{
     margin-left: 5px;
     margin-right: 5px;
 }
-/* Responsive layout-make three column stack on each other */
-@media screen and (max-width: 500px) {
-    .column{
-        width: 100%;
-    }
-}
-    
-}
+
 #contact{
     font-family: Nunito,sans-serif;
     background-color: slategrey;
