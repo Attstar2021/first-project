@@ -127,6 +127,44 @@ a:link {
 a:hover{
     color: crimson ;
 }
+#img1:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+#img2:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    
+}
+#img3:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    position: absolute;
+    
+
+    
+    
+}
+#img4:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+#img5:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+#img6:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    position: absolute;
+}
+
 
 /* add media query*/
 @media screen and (max-width:1200px){
@@ -142,7 +180,6 @@ a:hover{
         float: left;
         padding: 0;
         margin: 0;
-        
     }
     #list-two{
         clear: both;
@@ -151,4 +188,9 @@ a:hover{
         padding: 0;
         margin: 0;
     }
-   
+    #sec-gal > div{
+        width: 100%;
+        clear: both;
+        height: 150%;
+        padding:0;
+        
