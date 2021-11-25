@@ -16,10 +16,10 @@ body{
 }
 #icon{
     float: right;
-    font-size: 120%;
+    font-size: 130%;
     margin-right: 30px;
-    margin-top: 0px;
-    text-decoration: none;
+    margin-top: 23px;
+    
     
 
    
@@ -115,6 +115,11 @@ p, li{
     text-align: center;
 
 }
+a{
+    color: black;
+    gap: 15px;
+    text-decoration: none;
+}
 /* Hover effect on links*/
 a:link {
     color: black;
@@ -122,6 +127,8 @@ a:link {
 a:hover{
     color: crimson ;
 }
+
+/* add media query*/
 @media screen and (max-width:1200px){
     #services{
         width:65% ;
@@ -135,6 +142,7 @@ a:hover{
         float: left;
         padding: 0;
         margin: 0;
+        
     }
     #list-two{
         clear: both;
@@ -143,5 +151,4 @@ a:hover{
         padding: 0;
         margin: 0;
     }
-    
-}
+   
