@@ -50,7 +50,7 @@ body{
     }
 }
 /* Add style to services content */
-h2{
+h2, h3{
     text-align: center;
 }
 #services{
@@ -77,12 +77,10 @@ h2{
 }
 p, li{
     font-family: Nunito,sans-serif;
-    text-align: justify;
+    text-align: center;
+    list-style:none;
 }
-    #extra{
-        width: 100%;
-        height: 300px;
-    }
+    
 /* Add style to gallery */
 #gal1, #gal2{
     line-height: 0;
@@ -111,14 +109,16 @@ p, li{
     font-style: italic;
     color: black;
     width: 100%;
-    height: 300px;
+    height: 310px;
     text-align: center;
 
 }
 a{
     color: black;
-    gap: 15px;
+    font-size:15px;
     text-decoration: none;
+    column-gap:15px;
+
 }
 /* Hover effect on links*/
 a:link {
@@ -128,26 +128,26 @@ a:hover{
     color: crimson ;
 }
 #img1:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
     
 }
 #img2:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
     
     
 }
 #img3:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
     position: absolute;   
 }
 #img4:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 #img5:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 #img6:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
     position: absolute;
 }
 
@@ -176,3 +176,25 @@ a:hover{
     }
     
 }
+@media only screen and (max-width: 768px){
+    #hero-image{
+        height: 400px;
+        width: 100%;
+        position:center;
+    #services{
+        width:65%;
+        height:800px;
+        margin:0 auto;
+        padding:5px;
+
+    }
+       #gal1, #gal2 {
+           display:flex;
+           flex-direction: column;
+           
+       }
+       a{
+        font-size:16px;
+       }
+       
+    }
