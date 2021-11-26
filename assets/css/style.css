@@ -182,6 +182,14 @@ a:hover{
         width: 100%;
         position:center;
     }
+    #icon{
+        clear: left;
+        float: left;
+        margin-left:30px ;
+        margin-bottom: 20px;
+        line-height: 25px;
+
+    }
     #services{
         width:100%;
         height:780px;
@@ -194,6 +202,7 @@ a:hover{
            display:flex;
            flex-direction: column;
            margin-left: 130px;
+           margin-right: 130px;
           
            
        }
@@ -201,4 +210,20 @@ a:hover{
         font-size:16px;
        }
        
+    }
+    @media only screen and (max-width: 480px){
+        #logo{
+            margin-left: 10px;
+            margin-right: 0;
+        }
+        #gal1, #gal2{
+           column-count: 1;
+           align-items: center;
+          
+
+        }
+        form{
+            width: 100%;
+        
+        }
     }
