@@ -178,19 +178,23 @@ a:hover{
 }
 @media only screen and (max-width: 768px){
     #hero-image{
-        height: 400px;
+        height: 600px;
         width: 100%;
         position:center;
+    }
     #services{
-        width:65%;
-        height:800px;
-        margin:0 auto;
-        padding:5px;
+        width:100%;
+        height:780px;
+        margin:0 ;
+        padding:0;
+        
 
     }
        #gal1, #gal2 {
            display:flex;
            flex-direction: column;
+           margin-left: 130px;
+          
            
        }
        a{
