@@ -128,39 +128,25 @@ a:hover{
     color: crimson ;
 }
 #img1:hover{
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
     transform: scale(1.5);
+    
 }
 #img2:hover{
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
     transform: scale(1.5);
+    
     
 }
 #img3:hover{
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    position: absolute;
-    
-
-    
-    
+    position: absolute;   
 }
 #img4:hover{
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
     transform: scale(1.5);
 }
 #img5:hover{
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
     transform: scale(1.5);
 }
 #img6:hover{
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
     transform: scale(1.5);
     position: absolute;
 }
@@ -193,4 +179,5 @@ a:hover{
         clear: both;
         height: 150%;
         padding:0;
-        
+    }
+}
