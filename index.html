@@ -20,7 +20,7 @@
             <a href="index.html#contact">Contact us</a>
         </nav> 
     </header>
-    <section id="zoom-image">
+    <section id="zoom-image"> <h2>Renovation makes the difference</h2>
         
         <div id="hero-image" ></div> 
     </section>
@@ -39,9 +39,6 @@
             
           </ul>
         </div>
-
-      
-          </div>
     
         <div id="list-three">
             <h3>Electrical Services</h3>
@@ -66,11 +63,11 @@
               <li>Piping/leaking services</li>
               
             </ul>
-        
+        </div>
     </section>
-    <section class="sec-gal"> 
+    <section> 
         <h2>Gallery</h2>
-      <div id="gallery" class="row">
+      <div id="gal1" class="row">
 
         <div class="column" id="img1">
             <img src="./assets/images/pexels-houzlook-com-3926542.jpg" alt="kitchen with skyblue cupboards">
@@ -86,7 +83,7 @@
 
     </div>
 
-    <div class="row" id="gallery">
+    <div class="row" id="gal2">
 
         <div class="column" id="img4">
             <img src="./assets/images/pexels-max-vakhtbovych-6444256.jpg" alt="newly renovated toilet with standing shower cabin">
@@ -96,28 +93,34 @@
             <img src="./assets/images/pexels-max-vakhtbovych-7045362.jpg" alt="toilet with comtemprorary seat and sink">
         </div>
 
-        <div class="column"id="img6">
+        <div class="column" id="img6">
             <img src="./assets/images/pexels-max-vakhtbovych-6957082.jpg" alt="toilet with bathtub and sink">
         </div>
 
     </div>
-</div>
 </section>
+
 <footer>
     <div id="contact">
+        
 <form action="mailto:attstar@yahoo.com" method="post">
     <h3>Contact Us</h3>
-    <label for="name">Name</label> 
+    <label for="name-field">Name</label>
     <br>
-    <input id="name" type="text" required="text"/>
+	<input id="name-field" type="text" name="full_name" placeholder="Your name" required/>
     <br>
-    <label for="email">Email</label> 
+    <label for="email-field">Email</label>
     <br>
-    <input id="email" type="email"  required="@"/>
+	<input id="email-field" type="email" name="email" placeholder="Your email" required/>
     <br> 
-    <input type="submit" value="SUBMIT">
-</form>    
-
+    <label for="service-required">What services required?</label>
+			<br>
+			<textarea id="service-required" rows="5" cols="65" name="service-required" required>Please write in detail!</textarea>
+            <br>
+            <button type="submit">
+                <strong>Submit</strong>
+            </button>
+</form> 
         <span>
             <strong>Find more about us on:</strong>
         </span>

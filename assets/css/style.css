@@ -84,7 +84,7 @@ p, li{
         height: 300px;
     }
 /* Add style to gallery */
-#gallery{
+#gal1, #gal2{
     line-height: 0;
     column-count: 3;
     column-gap: 0;
@@ -111,7 +111,7 @@ p, li{
     font-style: italic;
     color: black;
     width: 100%;
-    height: 200px;
+    height: 300px;
     text-align: center;
 
 }
@@ -174,10 +174,5 @@ a:hover{
         padding: 0;
         margin: 0;
     }
-    #sec-gal > div{
-        width: 100%;
-        clear: both;
-        height: 150%;
-        padding:0;
-    }
+    
 }
