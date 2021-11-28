@@ -15,6 +15,14 @@ the site is responsible and can be accessable on all sizes of devices for all ty
 
 
 
+![143774644-71a6ed25-7c86-489a-9004-355adbc0285c](https://user-images.githubusercontent.com/91749477/143774886-45c5c70f-2d67-4c09-8527-39cb277423e0.png)
+
+
+
+
+![for mobile](https://user-images.githubusercontent.com/91749477/143775051-1e2d17cc-63a9-4bf3-8ed3-3aa3c2c5b5bf.png)
+
+
 
 
 
