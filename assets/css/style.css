@@ -234,8 +234,8 @@ a:hover{
             height: 100%;
            column-count: 1;
            align-items: center; 
-           position: absolute; 
-           top: 0;
+           position: relative; 
+           top: auto;
            bottom: 0;
            left: 0;
            right: 0;
