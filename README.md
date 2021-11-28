@@ -40,22 +40,33 @@ Form is to submit user details and what services they required and social links 
 
 ## Testing
 
-![143774644-71a6ed25-7c86-489a-9004-355adbc0285c](https://user-images.githubusercontent.com/91749477/143774886-45c5c70f-2d67-4c09-8527-39cb277423e0.png)
-
+Firstly this site was tested manually again and again to remove any errors and then finally tested through lighthouse, detail report for its accessibility and performance is given below;
 
 
 
 ![for mobile](https://user-images.githubusercontent.com/91749477/143775051-1e2d17cc-63a9-4bf3-8ed3-3aa3c2c5b5bf.png)
 
 
+### Validator Testing
 
+
+#### HTML Testing
 
 
 ![html validator](https://user-images.githubusercontent.com/91749477/143773960-6363c27f-9c32-473e-9b3a-752fcbb196f3.png)
 
 
 
+
+#### CSS Testing
+
+
 ![143773166-7e0f528a-c62f-443b-acaf-22937b66e2ac (1)](https://user-images.githubusercontent.com/91749477/143773885-3d2ec901-05cc-430a-ba60-fb26a2ad9097.png)
+
+
+#### Unfixed Bugs
+
+
 
 
 
