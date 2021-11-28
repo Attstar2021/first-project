@@ -66,7 +66,36 @@ Firstly this site was tested manually again and again to remove any errors and t
 
 #### Unfixed Bugs
 
+No error or bugs left to fix.
 
+
+
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://attstar2021.github.io/first-project/
+
+
+## Credits
+
+Here is the list of credits which helpls me to complete this webiste
+
+#### content
+
+
+Header style has been taken from Love Running project.
+
+
+#### Images
+
+All images has been taken from https://www.pexels.com/
+Image for thank you page has been takine from https://pixabay.com/
 
 
 
