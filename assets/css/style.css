@@ -7,6 +7,9 @@ body{
     
     
 }
+h4{
+    text-align: center;
+}
 #logo{
     float:left;
     font-size: 80%;
