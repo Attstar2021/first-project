@@ -231,11 +231,11 @@ a:hover{
         }
         #gal1, #gal2{
             width: 100%;
-            height:750px;
-           column-count: 1;
-           align-items: center;
-           margin-left: o auto;
-           margin-right: 0 auto;
+            height:auto;
+            float: left;
+
+
+           
            
            
 
@@ -246,7 +246,7 @@ a:hover{
         }
         #tulip{
             height: auto;
-            width: 100%;
-            float: left;
+            max-width: 100%;
+            align-items: center;
     }
 }
