@@ -232,7 +232,7 @@ a:hover{
         #gal1, #gal2{
             width: 100%;
             height:auto;
-            align-items: left;
+            align-items: center;
         }
         form{
             width: 100%;
